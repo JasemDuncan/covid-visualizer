@@ -10,23 +10,61 @@ export const getCountries = () => async (dispatch) => {
   const result = await axios(url);
   const countries = result.data;
   const fetchedCountries = [];
-  console.log('----');
+  // console.log('----');
   //   console.log(countries);
   //   console.log(Object.entries(countries)[0][1]);
   //   console.log(Object.entries(countries)[1]);
   // console.log(Object.entries(countries)[1][1]);
-  console.log('----');
+  // console.log('----');
   //   let i = 0;
   countries.forEach((country) => {
     const id = country.country;
     const confirmed = country.cases;
+    const { todayCases } = country;
+    const { deaths } = country;
+    const { todayDeaths } = country;
+    const { recovered } = country;
+    const { todayRecovered } = country;
+    const { active } = country;
+    const { critical } = country;
+    const { casesPerOneMillion } = country;
+    const { deathsPerOneMillion } = country;
+    const { tests } = country;
+    const { testsPerOneMillion } = country;
+    const { population } = country;
+    const { continent } = country;
+    const { oneCasePerPeople } = country;
+    const { oneDeathPerPeople } = country;
+    const { oneTestPerPeople } = country;
+    const { activePerOneMillion } = country;
+    const { recoveredPerOneMillion } = country;
+    const { criticalPerOneMillion } = country;
     // i += 1;
     fetchedCountries.push({
-      id, confirmed,
+      id,
+      confirmed,
+      todayCases,
+      deaths,
+      todayDeaths,
+      recovered,
+      todayRecovered,
+      active,
+      critical,
+      casesPerOneMillion,
+      deathsPerOneMillion,
+      tests,
+      testsPerOneMillion,
+      population,
+      continent,
+      oneCasePerPeople,
+      oneDeathPerPeople,
+      oneTestPerPeople,
+      activePerOneMillion,
+      recoveredPerOneMillion,
+      criticalPerOneMillion,
     });
   });
-  console.log('FetCHEDCOUNTRIES');
-  console.log(fetchedCountries);
+
   dispatch({
     type: GET_COUNTRIES,
     fetchedCountries,
