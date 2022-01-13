@@ -8,7 +8,9 @@ import store from './redux/configurationStore';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <div className="container-fluid">
+        <App />
+      </div>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country test Testing Country component 1`] = `
+<div>
+  <div>
+    <input
+      onChange={[Function]}
+      placeholder="search"
+      type="text"
+    />
+  </div>
+</div>
+`;

@@ -17,35 +17,36 @@ function App() {
     <Router>
       <>
         <div>
-          <div>
-            <div>
+          <div className="row justify-content-md-center">
+            <div className="col-3">
               <img src={logo} alt="logo" height="40" />
-              <h1>COVID VISUALIZER</h1>
             </div>
-            <div>
+            <div className="col-5">
+              <h5>COVID VISUALIZER</h5>
+            </div>
+            <div className="col-2">
               <NavLink to="/"> Country</NavLink>
             </div>
-            <div>
+            <div className="col-2">
               <div>Conf.</div>
             </div>
-
           </div>
           <hr />
+
           <Routes>
             <Route path="/" element={<Countries />} />
-            { countries.map((country) => {
-              console.log('jasem');
-              console.log(country.id);
-              console.log(country.id.includes(' ') ? country.id.replace(/\s/g, '-') : country.id);
-              return (
+            { countries.map((country) => (
+              <>
                 <Route
                   key={country.id}
                   path={`/${country.id.includes(' ') ? country.id.replace(/\s/g, '-') : country.id}`}
                   element={<Info country={country} />}
                 />
-              );
-            })}
+              </>
+
+            ))}
           </Routes>
+
         </div>
       </>
     </Router>

@@ -13,16 +13,20 @@ const Countries = () => {
 
   return (
     <div>
-      <div>
-        <input
-          placeholder="search"
-          type="text"
-          onChange={(event) => {
-            setSearchTerm(event.target.value);
-          }}
-        />
+      <div className="row">
+        <div className="col">
+          <input
+            placeholder="search"
+            type="text"
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+          />
+        </div>
       </div>
-      {
+      <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+        {
                 countries
                   .filter((item) => item.id.toLowerCase().startsWith(searchTerm.toLowerCase()))
                   .map((item) => {
@@ -30,13 +34,15 @@ const Countries = () => {
                     // console.log('ITEMM');
                     // console.log(item);
                     return (
-                      <Link key={item.id} to={`/${path.includes(' ') ? path.replace(/\s/g, '-') : path}`}>
-                        <h5>{item.id}</h5>
-                        <h5>{item.confirmed}</h5>
+                      <Link className="col" key={item.id} to={`/${path.includes(' ') ? path.replace(/\s/g, '-') : path}`}>
+                        <h6>{item.id}</h6>
+                        <h6>{item.confirmed}</h6>
                       </Link>
                     );
                   })
-            }
+          }
+
+      </div>
     </div>
   );
 };
