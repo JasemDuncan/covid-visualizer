@@ -37,3 +37,70 @@
     transform: rotate(360deg);
   }
 }
+
+.red {
+  background-color: red;
+}
+h6{
+  
+}
+
+.contenedor {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.elemento:nth-child(even) {background-color: rgb(179, 68, 116);}
+
+body{
+  background-color: rgb(190, 72, 125);
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* no underline */
+}
+
+.countryName{
+  color: white;
+  font-size: 13px;
+  font-weight:700;
+  text-transform: uppercase;
+}
+.confirmedSubtitle{
+  color: white;
+  font-size: 10px;
+  font-weight:500;  
+}
+
+.allCountry{
+  height: 120px;
+}
+
+.contenedor {
+  margin: 0;
+  padding: 0;
+}
+
+.statsByCountry{
+  font-size: 11px;
+  font-weight:700; 
+  color: white;
+  background-color: rgb(179, 68, 116);
+}
+
+.title {
+  font-size: 11px;
+  font-weight:700; 
+  color: white;  
+}
+
+.sandwichMenu {
+  font-style: 11px;
+  padding: 0px;
+  margin: 0px;
+}

@@ -24,24 +24,29 @@ const Countries = () => {
           />
         </div>
       </div>
-      <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-
+      <div className="row">
+        <div className="col">
+          <div className="statsByCountry"> STATS BY COUNTRY</div>
+        </div>
+      </div>
+      <div className="row contenedor row-cols-2 row-cols-lg-5">
         {
                 countries
                   .filter((item) => item.id.toLowerCase().startsWith(searchTerm.toLowerCase()))
                   .map((item) => {
                     const path = item.id;
-                    // console.log('ITEMM');
-                    // console.log(item);
                     return (
-                      <Link className="col" key={item.id} to={`/${path.includes(' ') ? path.replace(/\s/g, '-') : path}`}>
-                        <h6>{item.id}</h6>
-                        <h6>{item.confirmed}</h6>
+                      <Link className="col d-flex elemento allCountry flex-column justify-content-end" key={item.id} to={`/${path.includes(' ') ? path.replace(/\s/g, '-') : path}`}>
+                        <div className="d-flex flex-row justify-content-end">
+                          <div className="d-flex flex-column align-items-end justify-content-end">
+                            <div className="countryName">{item.id}</div>
+                            <div className="confirmedSubtitle">{item.confirmed}</div>
+                          </div>
+                        </div>
                       </Link>
                     );
                   })
           }
-
       </div>
     </div>
   );

@@ -18,17 +18,22 @@ function App() {
       <>
         <div>
           <div className="row justify-content-md-center">
-            <div className="col-3">
-              <img src={logo} alt="logo" height="40" />
+            <div className="col-3 d-flex justify-content-start sandwichMenu">
+              <nav className="navbar navbar-dark sandwichMenu">
+                <div className="container-fluid">
+                  <span className="navbar-toggler-icon " />
+                </div>
+              </nav>
             </div>
             <div className="col-5">
-              <h5>COVID VISUALIZER</h5>
+              <div className="title">COVID VISUALIZER</div>
             </div>
             <div className="col-2">
               <NavLink to="/"> Country</NavLink>
             </div>
             <div className="col-2">
               <div>Conf.</div>
+              <img src={logo} alt="logo" height="40" />
             </div>
           </div>
           <hr />
