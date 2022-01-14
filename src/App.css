@@ -1,63 +1,17 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.red {
-  background-color: red;
-}
-h6{
-  
-}
-
 .contenedor {
   border-collapse: collapse;
   width: 100%;
 }
 
-
-.elemento:nth-child(even) {background-color: rgb(179, 68, 116);}
-
 body{
-  background-color: rgb(190, 72, 125);
+  background-color: rgb(241, 77, 151);
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
+
+.elemento:nth-child(even) {background-color: rgb(207, 67, 118);}
+
+
 
 
 a {
@@ -87,10 +41,11 @@ a {
 }
 
 .statsByCountry{
+  padding-left: 10px;
   font-size: 11px;
   font-weight:700; 
   color: white;
-  background-color: rgb(179, 68, 116);
+  background-color: rgb(207, 67, 118);
 }
 
 .title {
@@ -104,3 +59,72 @@ a {
   padding: 0px;
   margin: 0px;
 }
+
+.searchInput{
+  padding-left: 10px;
+  background-color: rgb(202, 98, 136);
+  width: 100%;
+  color: white;
+  border: none ;
+  overflow: auto;
+  outline: none;
+  box-shadow: none;  
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.8; /* Firefox */
+  font-size: 10px;
+  font-weight:700; 
+}
+
+.imgContainer{
+  position: relative;
+  width: 100%;
+  height: 150px;    
+  margin: 0;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  background-color: royalblue;
+}
+
+.ontop{
+  color: white;    
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;    
+  align-items: flex-end;
+  background-color: rgb(207, 67, 118);
+}
+
+.titleWorld{
+  font-size: 18px;
+  font-weight:bold;    
+}
+
+.subtitleWorld{
+  font-size: 12px;
+  font-weight:500;    
+}
+
+.stadisticsWorld{
+  font-size: 15px;
+  font-weight:400;   
+}
+
+.imgGif{  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  margin-top: -65px; 
+  opacity: 0.09;
+  z-index: -1;
+}
+ 
+

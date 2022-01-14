@@ -7,7 +7,11 @@ import {
   NavLink,
 } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import logo from './logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faChevronLeft,
+  faMicrophone, faCog, faSignal,
+} from '@fortawesome/free-solid-svg-icons';
 import Countries from './components/Countries';
 import Info from './components/Info';
 
@@ -17,27 +21,22 @@ function App() {
     <Router>
       <>
         <div>
-          <div className="row justify-content-md-center">
-            <div className="col-3 d-flex justify-content-start sandwichMenu">
-              <nav className="navbar navbar-dark sandwichMenu">
-                <div className="container-fluid">
-                  <span className="navbar-toggler-icon " />
-                </div>
-              </nav>
+          <div className="row d-flex justify-content-center align-items-center mt-3">
+            <div className="col-2 d-flex justify-content-center align-items-center">
+              <NavLink to="/">
+                <FontAwesomeIcon icon={faChevronLeft} size="s" color="white" />
+              </NavLink>
             </div>
-            <div className="col-5">
+            <div className="col-7 d-flex justify-content-center align-items-center">
               <div className="title">COVID VISUALIZER</div>
             </div>
-            <div className="col-2">
-              <NavLink to="/"> Country</NavLink>
-            </div>
-            <div className="col-2">
-              <div>Conf.</div>
-              <img src={logo} alt="logo" height="40" />
+            <div className="col-3 d-flex justify-content-around align-items-center">
+              <FontAwesomeIcon icon={faSignal} size="s" color="yellow" />
+              <FontAwesomeIcon icon={faMicrophone} size="s" color="white" />
+              <FontAwesomeIcon icon={faCog} size="s" color="white" />
             </div>
           </div>
           <hr />
-
           <Routes>
             <Route path="/" element={<Countries />} />
             { countries.map((country) => (
