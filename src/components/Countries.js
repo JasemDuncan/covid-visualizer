@@ -4,16 +4,23 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { getCountries } from '../redux/country/countries';
+import { getWorld } from '../redux/world/world';
 import logo from '../world.gif';
 
 const Countries = () => {
+  // For Country
   const dispatch = useDispatch();
   const countries = useSelector((state) => state.countriesReducer);
   const [searchTerm, setSearchTerm] = useState('');
   useEffect(() => {
     if (countries.length === 0) dispatch(getCountries());
   }, []);
-
+  // For World
+  const dipatchWorld = useDispatch();
+  const world = useSelector((state) => state.worldReducer);
+  useEffect(() => {
+    if (world.length === 0) dipatchWorld(getWorld());
+  }, []);
   return (
     <div>
       <div className="row">
@@ -24,12 +31,38 @@ const Countries = () => {
               <div className="titleWorld card-title">
                 WORLD COVID 19
               </div>
-              <div className="subtitleWorld card-text">
-                51515151 cases
-              </div>
-              <div className="stadisticsWorld card-text">
-                CASES : 51515151
-              </div>
+
+              {
+                  world
+                    .map((item) => {
+                      console.log('Jasem');
+                      return (
+                        <>
+                          <div className="subtitleWorld card-text">
+                            ACTIVE:
+                            {' '}
+                            {item.active.toLocaleString()}
+                          </div>
+                          <div className="stadisticsWorld card-text">
+                            DEATHS:
+                            {' '}
+                            {item.deaths.toLocaleString()}
+                          </div>
+                          <div className="subtitleWorld card-text">
+                            RECOVERIES:
+                            {' '}
+                            {item.recovered.toLocaleString()}
+                          </div>
+                          <div className="stadisticsWorld card-text">
+                            POPULATION:
+                            {' '}
+                            {item.population.toLocaleString()}
+                          </div>
+                        </>
+                      );
+                    })
+                }
+
             </div>
           </div>
 
@@ -69,7 +102,7 @@ const Countries = () => {
                           <div className="d-flex flex-column align-items-end justify-content-end">
                             <div className="countryName">{item.id}</div>
                             <div className="confirmedSubtitle">
-                              {item.confirmed}
+                              {item.confirmed.toLocaleString()}
                               {' '}
                               <div className="confirmedSubtitleDetail">Confirmed</div>
                             </div>

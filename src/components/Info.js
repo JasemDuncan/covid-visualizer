@@ -25,14 +25,14 @@ const Info = (props) => {
                 {country.id}
               </div>
               <div className="subtitleWorld card-text">
-                Confirmed:
+                CONFIRMED:
                 {' '}
-                {country.confirmed}
+                {country.confirmed.toLocaleString()}
               </div>
               <div className="stadisticsWorld card-text">
-                Deaths:
+                DEATHS:
                 {' '}
-                {country.deaths}
+                {country.deaths.toLocaleString()}
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.recovered}
+              {country.recovered.toLocaleString()}
               {' '}
               people
             </div>
@@ -72,7 +72,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.active}
+              {country.active.toLocaleString()}
               {' '}
               people
             </div>
@@ -88,7 +88,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.critical}
+              {country.critical.toLocaleString()}
               {' '}
               people
             </div>
@@ -104,7 +104,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.casesPerOneMillion}
+              {country.casesPerOneMillion.toLocaleString()}
               {' '}
               people
             </div>
@@ -120,7 +120,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.deathsPerOneMillion}
+              {country.deathsPerOneMillion.toLocaleString()}
               {' '}
               people
             </div>
@@ -136,7 +136,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.tests}
+              {country.tests.toLocaleString()}
               {' '}
               people
             </div>
@@ -152,7 +152,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.testsPerOneMillion}
+              {country.testsPerOneMillion.toLocaleString()}
               {' '}
               people
             </div>
@@ -168,7 +168,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.population}
+              {country.population.toLocaleString()}
               {' '}
               people
             </div>
@@ -198,7 +198,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.oneCasePerPeople}
+              {country.oneCasePerPeople.toLocaleString()}
               {' '}
               people
             </div>
@@ -214,7 +214,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.oneDeathPerPeople}
+              {country.oneDeathPerPeople.toLocaleString()}
               {' '}
               people
             </div>
@@ -230,7 +230,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.oneTestPerPeople}
+              {country.oneTestPerPeople.toLocaleString()}
               {' '}
               people
             </div>
@@ -246,7 +246,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.activePerOneMillion}
+              {country.activePerOneMillion.toLocaleString()}
               {' '}
               people
             </div>
@@ -262,7 +262,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.recoveredPerOneMillion}
+              {country.recoveredPerOneMillion.toLocaleString()}
               {' '}
               people
             </div>
@@ -278,7 +278,7 @@ const Info = (props) => {
           </div>
           <div className="detailInfo">
             <div className="confirmedSubtitleInfo">
-              {country.criticalPerOneMillion}
+              {country.criticalPerOneMillion.toLocaleString()}
               {' '}
               people
             </div>

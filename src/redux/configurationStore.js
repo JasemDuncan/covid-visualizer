@@ -3,9 +3,11 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import countriesReducer from './country/countries';
+import worldReducer from './world/world';
 
 const rootReducer = combineReducers({
   countriesReducer,
+  worldReducer,
 });
 
 const store = createStore(

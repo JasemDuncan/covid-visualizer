@@ -10,13 +10,6 @@ export const getCountries = () => async (dispatch) => {
   const result = await axios(url);
   const countries = result.data;
   const fetchedCountries = [];
-  // console.log('----');
-  //   console.log(countries);
-  //   console.log(Object.entries(countries)[0][1]);
-  //   console.log(Object.entries(countries)[1]);
-  // console.log(Object.entries(countries)[1][1]);
-  // console.log('----');
-  //   let i = 0;
   countries.forEach((country) => {
     const id = country.country;
     const confirmed = country.cases;
