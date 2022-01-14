@@ -36,7 +36,6 @@ function App() {
               <FontAwesomeIcon icon={faCog} size="s" color="white" />
             </div>
           </div>
-          <hr />
           <Routes>
             <Route path="/" element={<Countries />} />
             { countries.map((country) => (

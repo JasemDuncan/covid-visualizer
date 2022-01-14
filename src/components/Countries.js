@@ -17,19 +17,22 @@ const Countries = () => {
   return (
     <div>
       <div className="row">
-        <div className="col imgContainer">
-          <div className="ontop">
-            <div className="titleWorld">
-              WORLD COVID 19
-            </div>
-            <div className="subtitleWorld">
-              51515151 cases
-            </div>
-            <div className="stadisticsWorld">
-              CASES : 51515151
+        <div className="col">
+          <div className="card imgContainer mt-3">
+            <img src={logo} className="imgGif card-img" alt="logo" />
+            <div className="ontop card-img-overlay">
+              <div className="titleWorld card-title">
+                WORLD COVID 19
+              </div>
+              <div className="subtitleWorld card-text">
+                51515151 cases
+              </div>
+              <div className="stadisticsWorld card-text">
+                CASES : 51515151
+              </div>
             </div>
           </div>
-          <img src={logo} className="imgGif" alt="logo" />
+
         </div>
       </div>
       <div className="row">
@@ -65,7 +68,11 @@ const Countries = () => {
                         <div className="d-flex flex-row justify-content-end">
                           <div className="d-flex flex-column align-items-end justify-content-end">
                             <div className="countryName">{item.id}</div>
-                            <div className="confirmedSubtitle">{item.confirmed}</div>
+                            <div className="confirmedSubtitle">
+                              {item.confirmed}
+                              {' '}
+                              <div className="confirmedSubtitleDetail">Confirmed</div>
+                            </div>
                           </div>
                         </div>
                       </Link>
