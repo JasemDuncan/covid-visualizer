@@ -9,7 +9,6 @@ export const getWorld = () => async (dispatch) => {
   const result = await axios(url);
   const world = result.data;
   const fetchedWorld = [];
-  console.log(world);
 
   const { updated } = world;
   const { cases } = world;

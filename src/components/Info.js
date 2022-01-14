@@ -9,11 +9,7 @@ import {
 import logo from '../world.gif';
 
 const Info = (props) => {
-  console.log('Antes de props');
   const { country } = props;
-  console.log('imprime props');
-  console.log(country);
-
   return (
     <div>
       <div className="row">

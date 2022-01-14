@@ -34,33 +34,30 @@ const Countries = () => {
 
               {
                   world
-                    .map((item) => {
-                      console.log('Jasem');
-                      return (
-                        <>
-                          <div className="subtitleWorld card-text">
-                            ACTIVE:
-                            {' '}
-                            {item.active.toLocaleString()}
-                          </div>
-                          <div className="stadisticsWorld card-text">
-                            DEATHS:
-                            {' '}
-                            {item.deaths.toLocaleString()}
-                          </div>
-                          <div className="subtitleWorld card-text">
-                            RECOVERIES:
-                            {' '}
-                            {item.recovered.toLocaleString()}
-                          </div>
-                          <div className="stadisticsWorld card-text">
-                            POPULATION:
-                            {' '}
-                            {item.population.toLocaleString()}
-                          </div>
-                        </>
-                      );
-                    })
+                    .map((item) => (
+                      <>
+                        <div className="subtitleWorld card-text">
+                          ACTIVE:
+                          {' '}
+                          {item.active.toLocaleString()}
+                        </div>
+                        <div className="stadisticsWorld card-text">
+                          DEATHS:
+                          {' '}
+                          {item.deaths.toLocaleString()}
+                        </div>
+                        <div className="subtitleWorld card-text">
+                          RECOVERIES:
+                          {' '}
+                          {item.recovered.toLocaleString()}
+                        </div>
+                        <div className="stadisticsWorld card-text">
+                          POPULATION:
+                          {' '}
+                          {item.population.toLocaleString()}
+                        </div>
+                      </>
+                    ))
                 }
 
             </div>
