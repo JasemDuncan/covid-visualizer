@@ -6,6 +6,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { getCountries } from '../redux/country/countries';
 import { getWorld } from '../redux/world/world';
 import logo from '../world.gif';
+import WorldInfo from './WorldInfo';
 
 const Countries = () => {
   // For Country
@@ -35,28 +36,13 @@ const Countries = () => {
               {
                   world
                     .map((item) => (
-                      <>
-                        <div className="subtitleWorld card-text">
-                          ACTIVE:
-                          {' '}
-                          {item.active.toLocaleString()}
-                        </div>
-                        <div className="stadisticsWorld card-text">
-                          DEATHS:
-                          {' '}
-                          {item.deaths.toLocaleString()}
-                        </div>
-                        <div className="subtitleWorld card-text">
-                          RECOVERIES:
-                          {' '}
-                          {item.recovered.toLocaleString()}
-                        </div>
-                        <div className="stadisticsWorld card-text">
-                          POPULATION:
-                          {' '}
-                          {item.population.toLocaleString()}
-                        </div>
-                      </>
+                      <WorldInfo
+                        key={item.updated}
+                        active={item.active}
+                        deaths={item.deaths}
+                        recovered={item.recovered}
+                        population={item.population}
+                      />
                     ))
                 }
 
