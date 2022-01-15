@@ -1,13 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Country test Testing Country component 1`] = `
+exports[`Country test Should match Snapshot 1`] = `
 <div>
-  <div>
-    <input
-      onChange={[Function]}
-      placeholder="search"
-      type="text"
-    />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="card imgContainer mt-3"
+      >
+        <img
+          alt="logo"
+          className="imgGif card-img"
+          src="world.gif"
+        />
+        <div
+          className="ontop card-img-overlay"
+        >
+          <div
+            className="titleWorld card-title"
+          >
+            WORLD COVID 19
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <input
+        className="searchInput"
+        onChange={[Function]}
+        placeholder="SEARCH"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="statsByCountry"
+      >
+         STATS BY COUNTRY
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedor row-cols-2 row-cols-lg-5"
+  />
 </div>
 `;
