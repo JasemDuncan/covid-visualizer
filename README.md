@@ -3,7 +3,7 @@
 # # Covid Visualizer
 
 Covid visualizer is a simple, interactive way to visualize the impact of COVID-19.
-This project use API to retrieve real information of the data about covid-19. The information is divide by countries and first you can see a list of all countries around the world and when you click the detail information will present.
+This project uses API to retrieve real information of the data about covid-19. The information is divided by countries and first you can see a list of all countries around the world and when you click the detail information will present.
 
 
 ![](./src/0.png)
