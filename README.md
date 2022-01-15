@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 ### Install
 - Open your console and change the current working directory into the destination for this project.
 - Type `git clone git@github.com:JasemDuncan/covid-visualizer.git`
-- Run this command in terminal: `npm install` to install all dependecies.
+- Run this command in terminal: `npm install` to install all dependencies.
 - Run this command in terminal: `npm start` to run the project
 - Run this command in terminal: `npm test` to see test
 - Go in your browser to: http://localhost:3000/
