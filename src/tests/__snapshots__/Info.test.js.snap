@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Info  1`] = `
+<div
+  className="testing"
+>
+  <div
+    className="row"
+    data-test="firstRow"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="card imgContainer mt-3"
+      >
+        <img
+          alt="logo"
+          className="imgGif card-img"
+          src="world.gif"
+        />
+        <div
+          className="ontop card-img-overlay"
+        >
+          <div
+            className="titleWorld card-title"
+          >
+            Afghanistan
+          </div>
+          <div
+            className="subtitleWorld card-text"
+          >
+            CONFIRMED:
+             
+            158,612
+          </div>
+          <div
+            className="stadisticsWorld card-text"
+          >
+            DEATHS:
+             
+            7,376
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="statsByCountry"
+      >
+         
+        ALL STATS FROM
+         
+        Afghanistan
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Recovered
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          145,897
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-running fa-w-13 iconInfo"
+          color="white"
+          data-icon="running"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 416 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M272 96c26.51 0 48-21.49 48-48S298.51 0 272 0s-48 21.49-48 48 21.49 48 48 48zM113.69 317.47l-14.8 34.52H32c-17.67 0-32 14.33-32 32s14.33 32 32 32h77.45c19.25 0 36.58-11.44 44.11-29.09l8.79-20.52-10.67-6.3c-17.32-10.23-30.06-25.37-37.99-42.61zM384 223.99h-44.03l-26.06-53.25c-12.5-25.55-35.45-44.23-61.78-50.94l-71.08-21.14c-28.3-6.8-57.77-.55-80.84 17.14l-39.67 30.41c-14.03 10.75-16.69 30.83-5.92 44.86s30.84 16.66 44.86 5.92l39.69-30.41c7.67-5.89 17.44-8 25.27-6.14l14.7 4.37-37.46 87.39c-12.62 29.48-1.31 64.01 26.3 80.31l84.98 50.17-27.47 87.73c-5.28 16.86 4.11 34.81 20.97 40.09 3.19 1 6.41 1.48 9.58 1.48 13.61 0 26.23-8.77 30.52-22.45l31.64-101.06c5.91-20.77-2.89-43.08-21.64-54.39l-61.24-36.14 31.31-78.28 20.27 41.43c8 16.34 24.92 26.89 43.11 26.89H384c17.67 0 32-14.33 32-32s-14.33-31.99-32-31.99z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Active
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          5,339
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-virus fa-w-16 iconInfo"
+          color="white"
+          data-icon="virus"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M483.55,227.55H462c-50.68,0-76.07-61.27-40.23-97.11L437,115.19A28.44,28.44,0,0,0,396.8,75L381.56,90.22c-35.84,35.83-97.11,10.45-97.11-40.23V28.44a28.45,28.45,0,0,0-56.9,0V50c0,50.68-61.27,76.06-97.11,40.23L115.2,75A28.44,28.44,0,0,0,75,115.19l15.25,15.25c35.84,35.84,10.45,97.11-40.23,97.11H28.45a28.45,28.45,0,1,0,0,56.89H50c50.68,0,76.07,61.28,40.23,97.12L75,396.8A28.45,28.45,0,0,0,115.2,437l15.24-15.25c35.84-35.84,97.11-10.45,97.11,40.23v21.54a28.45,28.45,0,0,0,56.9,0V462c0-50.68,61.27-76.07,97.11-40.23L396.8,437A28.45,28.45,0,0,0,437,396.8l-15.25-15.24c-35.84-35.84-10.45-97.12,40.23-97.12h21.54a28.45,28.45,0,1,0,0-56.89ZM224,272a48,48,0,1,1,48-48A48,48,0,0,1,224,272Zm80,56a24,24,0,1,1,24-24A24,24,0,0,1,304,328Z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Critical
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          1,124
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-clinic-medical fa-w-18 iconInfo"
+          color="white"
+          data-icon="clinic-medical"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2zm96 261a8 8 0 0 1-8 8h-56v56a8 8 0 0 1-8 8h-48a8 8 0 0 1-8-8v-56h-56a8 8 0 0 1-8-8v-48a8 8 0 0 1 8-8h56v-56a8 8 0 0 1 8-8h48a8 8 0 0 1 8 8v56h56a8 8 0 0 1 8 8zm186.69-139.72l-255.94-226a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Cases per one million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          3,939
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-people-arrows fa-w-18 iconInfo"
+          color="white"
+          data-icon="people-arrows"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96,128A64,64,0,1,0,32,64,64,64,0,0,0,96,128Zm0,176.08a44.11,44.11,0,0,1,13.64-32L181.77,204c1.65-1.55,3.77-2.31,5.61-3.57A63.91,63.91,0,0,0,128,160H64A64,64,0,0,0,0,224v96a32,32,0,0,0,32,32V480a32,32,0,0,0,32,32h64a32,32,0,0,0,32-32V383.61l-50.36-47.53A44.08,44.08,0,0,1,96,304.08ZM480,128a64,64,0,1,0-64-64A64,64,0,0,0,480,128Zm32,32H448a63.91,63.91,0,0,0-59.38,40.42c1.84,1.27,4,2,5.62,3.59l72.12,68.06a44.37,44.37,0,0,1,0,64L416,383.62V480a32,32,0,0,0,32,32h64a32,32,0,0,0,32-32V352a32,32,0,0,0,32-32V224A64,64,0,0,0,512,160ZM444.4,295.34l-72.12-68.06A12,12,0,0,0,352,236v36H224V236a12,12,0,0,0-20.28-8.73L131.6,295.34a12.4,12.4,0,0,0,0,17.47l72.12,68.07A12,12,0,0,0,224,372.14V336H352v36.14a12,12,0,0,0,20.28,8.74l72.12-68.07A12.4,12.4,0,0,0,444.4,295.34Z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Deaths per one million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          183
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-cross fa-w-12 iconInfo"
+          color="white"
+          data-icon="cross"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M352 128h-96V32c0-17.67-14.33-32-32-32h-64c-17.67 0-32 14.33-32 32v96H32c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h96v224c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32V256h96c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Test
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          833,693
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-vial fa-w-15 iconInfo"
+          color="white"
+          data-icon="vial"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 480 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M477.7 186.1L309.5 18.3c-3.1-3.1-8.2-3.1-11.3 0l-34 33.9c-3.1 3.1-3.1 8.2 0 11.3l11.2 11.1L33 316.5c-38.8 38.7-45.1 102-9.4 143.5 20.6 24 49.5 36 78.4 35.9 26.4 0 52.8-10 72.9-30.1l246.3-245.7 11.2 11.1c3.1 3.1 8.2 3.1 11.3 0l34-33.9c3.1-3 3.1-8.1 0-11.2zM318 256H161l148-147.7 78.5 78.3L318 256z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Test per one million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          20,703
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-vials fa-w-20 iconInfo"
+          color="white"
+          data-icon="vials"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 640 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M72 64h24v240c0 44.1 35.9 80 80 80s80-35.9 80-80V64h24c4.4 0 8-3.6 8-8V8c0-4.4-3.6-8-8-8H72c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8zm72 0h64v96h-64V64zm480 384H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h608c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM360 64h24v240c0 44.1 35.9 80 80 80s80-35.9 80-80V64h24c4.4 0 8-3.6 8-8V8c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8zm72 0h64v96h-64V64z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Population
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          40,270,088
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-users fa-w-20 iconInfo"
+          color="white"
+          data-icon="users"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 640 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Continent
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          Asia
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-globe fa-w-16 iconInfo"
+          color="white"
+          data-icon="globe"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 496 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        One case per people
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          254
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-male fa-w-6 iconInfo"
+          color="white"
+          data-icon="male"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 0c35.346 0 64 28.654 64 64s-28.654 64-64 64-64-28.654-64-64S60.654 0 96 0m48 144h-11.36c-22.711 10.443-49.59 10.894-73.28 0H48c-26.51 0-48 21.49-48 48v136c0 13.255 10.745 24 24 24h16v136c0 13.255 10.745 24 24 24h64c13.255 0 24-10.745 24-24V352h16c13.255 0 24-10.745 24-24V192c0-26.51-21.49-48-48-48z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        One death per people
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          5,460
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-jedi fa-w-18 iconInfo"
+          color="white"
+          data-icon="jedi"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M535.95308,352c-42.64069,94.17188-137.64086,160-247.9848,160q-6.39844,0-12.84377-.29688C171.15558,506.9375,81.26481,442.23438,40.01474,352H79.93668L21.3272,293.40625a264.82522,264.82522,0,0,1-5.10938-39.42187,273.6653,273.6653,0,0,1,.5-29.98438H63.93665L22.546,182.625A269.79782,269.79782,0,0,1,130.51489,20.54688a16.06393,16.06393,0,0,1,9.28127-3,16.36332,16.36332,0,0,1,13.5,7.25,16.02739,16.02739,0,0,1,1.625,15.09374,138.387,138.387,0,0,0-9.84376,51.26563c0,45.10937,21.04691,86.57813,57.71884,113.73437a16.29989,16.29989,0,0,1,1.20313,25.39063c-26.54692,23.98437-41.17194,56.5-41.17194,91.57813,0,60.03124,42.95319,110.28124,99.89079,121.92187l2.5-65.26563L238.062,397a8.33911,8.33911,0,0,1-10-.75,8.025,8.025,0,0,1-1.39063-9.9375l20.125-33.76562-42.06257-8.73438a7.9898,7.9898,0,0,1,0-15.65625l42.06257-8.71875-20.10941-33.73438a7.99122,7.99122,0,0,1,11.35939-10.71874L268.437,295.64062,279.95265,7.67188a7.97138,7.97138,0,0,1,8-7.67188h.04687a8.02064,8.02064,0,0,1,7.95314,7.70312L307.48394,295.625l30.39068-20.67188a8.08327,8.08327,0,0,1,10,.8125,7.99866,7.99866,0,0,1,1.39062,9.90626L329.12461,319.4375l42.07819,8.73438a7.99373,7.99373,0,0,1,0,15.65624l-42.07819,8.71876,20.1094,33.73437a7.97791,7.97791,0,0,1-1.32812,9.92187A8.25739,8.25739,0,0,1,337.87462,397L310.7027,378.53125l2.5,65.34375c48.48446-9.40625,87.57828-48.15625,97.31267-96.5A123.52652,123.52652,0,0,0,371.9528,230.29688a16.30634,16.30634,0,0,1,1.20313-25.42188c36.65631-27.17188,57.6876-68.60938,57.6876-113.73438a138.01689,138.01689,0,0,0-9.85939-51.3125,15.98132,15.98132,0,0,1,1.60937-15.09374,16.36914,16.36914,0,0,1,13.5-7.23438,16.02453,16.02453,0,0,1,9.25,2.98438A271.26947,271.26947,0,0,1,553.25,182.76562L511.99992,224h46.9532C559.3125,229.76562,560,235.45312,560,241.26562a270.092,270.092,0,0,1-5.125,51.85938L495.98427,352Z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        One test per people
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          48
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-syringe fa-w-16 iconInfo"
+          color="white"
+          data-icon="syringe"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M201.5 174.8l55.7 55.8c3.1 3.1 3.1 8.2 0 11.3l-11.3 11.3c-3.1 3.1-8.2 3.1-11.3 0l-55.7-55.8-45.3 45.3 55.8 55.8c3.1 3.1 3.1 8.2 0 11.3l-11.3 11.3c-3.1 3.1-8.2 3.1-11.3 0L111 265.2l-26.4 26.4c-17.3 17.3-25.6 41.1-23 65.4l7.1 63.6L2.3 487c-3.1 3.1-3.1 8.2 0 11.3l11.3 11.3c3.1 3.1 8.2 3.1 11.3 0l66.3-66.3 63.6 7.1c23.9 2.6 47.9-5.4 65.4-23l181.9-181.9-135.7-135.7-64.9 65zm308.2-93.3L430.5 2.3c-3.1-3.1-8.2-3.1-11.3 0l-11.3 11.3c-3.1 3.1-3.1 8.2 0 11.3l28.3 28.3-45.3 45.3-56.6-56.6-17-17c-3.1-3.1-8.2-3.1-11.3 0l-33.9 33.9c-3.1 3.1-3.1 8.2 0 11.3l17 17L424.8 223l17 17c3.1 3.1 8.2 3.1 11.3 0l33.9-34c3.1-3.1 3.1-8.2 0-11.3l-73.5-73.5 45.3-45.3 28.3 28.3c3.1 3.1 8.2 3.1 11.3 0l11.3-11.3c3.1-3.2 3.1-8.2 0-11.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Active person per million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          132.58
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-diagnoses fa-w-20 iconInfo"
+          color="white"
+          data-icon="diagnoses"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 640 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M496 256c8.8 0 16-7.2 16-16s-7.2-16-16-16-16 7.2-16 16 7.2 16 16 16zm-176-80c48.5 0 88-39.5 88-88S368.5 0 320 0s-88 39.5-88 88 39.5 88 88 88zM59.8 364c10.2 15.3 29.3 17.8 42.9 9.8 16.2-9.6 56.2-31.7 105.3-48.6V416h224v-90.7c49.1 16.8 89.1 39 105.3 48.6 13.6 8 32.7 5.3 42.9-9.8l17.8-26.7c8.8-13.2 7.6-34.6-10-45.1-11.9-7.1-29.7-17-51.1-27.4-28.1 46.1-99.4 17.8-87.7-35.1C409.3 217.2 365.1 208 320 208c-57 0-112.9 14.5-160 32.2-.2 40.2-47.6 63.3-79.2 36-11.2 6-21.3 11.6-28.7 16-17.6 10.5-18.8 31.8-10 45.1L59.8 364zM368 344c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm-96-96c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm-160 8c8.8 0 16-7.2 16-16s-7.2-16-16-16-16 7.2-16 16 7.2 16 16 16zm512 192H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h608c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfoTwo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Recovered per one million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          3,622.96
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-running fa-w-13 iconInfo"
+          color="white"
+          data-icon="running"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 416 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M272 96c26.51 0 48-21.49 48-48S298.51 0 272 0s-48 21.49-48 48 21.49 48 48 48zM113.69 317.47l-14.8 34.52H32c-17.67 0-32 14.33-32 32s14.33 32 32 32h77.45c19.25 0 36.58-11.44 44.11-29.09l8.79-20.52-10.67-6.3c-17.32-10.23-30.06-25.37-37.99-42.61zM384 223.99h-44.03l-26.06-53.25c-12.5-25.55-35.45-44.23-61.78-50.94l-71.08-21.14c-28.3-6.8-57.77-.55-80.84 17.14l-39.67 30.41c-14.03 10.75-16.69 30.83-5.92 44.86s30.84 16.66 44.86 5.92l39.69-30.41c7.67-5.89 17.44-8 25.27-6.14l14.7 4.37-37.46 87.39c-12.62 29.48-1.31 64.01 26.3 80.31l84.98 50.17-27.47 87.73c-5.28 16.86 4.11 34.81 20.97 40.09 3.19 1 6.41 1.48 9.58 1.48 13.61 0 26.23-8.77 30.52-22.45l31.64-101.06c5.91-20.77-2.89-43.08-21.64-54.39l-61.24-36.14 31.31-78.28 20.27 41.43c8 16.34 24.92 26.89 43.11 26.89H384c17.67 0 32-14.33 32-32s-14.33-31.99-32-31.99z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row contenedorInfo row-cols rows-cols-lg-5"
+  >
+    <div
+      className="col d-flex flex-row elementoInfo  mt-1 p-2"
+    >
+      <div
+        className="confirmedInfo"
+      >
+        Critical per million
+      </div>
+      <div
+        className="detailInfo"
+      >
+        <div
+          className="confirmedSubtitleInfo"
+        >
+          27.91
+           
+          people
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-hand-holding-medical fa-w-18 iconInfo"
+          color="white"
+          data-icon="hand-holding-medical"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M159.88,175.82h64v64a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16v-64h64a16,16,0,0,0,16-16v-64a16,16,0,0,0-16-16h-64v-64a16,16,0,0,0-16-16h-64a16,16,0,0,0-16,16v64h-64a16,16,0,0,0-16,16v64A16,16,0,0,0,159.88,175.82ZM568.07,336.13a39.91,39.91,0,0,0-55.93-8.47L392.47,415.84H271.86a16,16,0,0,1,0-32H350.1c16,0,30.75-10.87,33.37-26.61a32.06,32.06,0,0,0-31.62-37.38h-160a117.7,117.7,0,0,0-74.12,26.25l-46.5,37.74H15.87a16.11,16.11,0,0,0-16,16v96a16.11,16.11,0,0,0,16,16h347a104.8,104.8,0,0,0,61.7-20.27L559.6,392A40,40,0,0,0,568.07,336.13Z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
