@@ -15,6 +15,14 @@ This project use API to retrieve real information of the data about covid-19. Th
 - Javascript
 - React & Redux
 
+## Live Demo for Mobile Version
+
+- LINK: [Covid-19 Visualizer](https://loving-johnson-43e2f7.netlify.app)
+
+## Video Presentation
+
+- LINK: [Covid-19 Visualizer Presentation](https://www.loom.com/share/3150ed6c84644f53aad2a8e27cabece6)
+
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 
@@ -50,3 +58,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE.md) licensed.
+
+### Creative Commons license of the design
+- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
